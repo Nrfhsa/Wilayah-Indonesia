@@ -19,7 +19,7 @@ class GetSession:
         logging.basicConfig(
             level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s',
-            filename='administrative_hierarchy.log.log'
+            filename='process.log'
         )
         self.logger = logging.getLogger(__name__)
 
