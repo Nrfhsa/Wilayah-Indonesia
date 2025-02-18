@@ -23,29 +23,42 @@
 {
   "metadata": {
     "timestamp": "",
-    "source": "cekbansos.kemensos.go.id",
+    "source": "",
     "statistics": {
-      "provinces": 0,
-      "cities": 0,
-      "districts": 0,
-      "villages": 0
+      "total_provinces": 0,
+      "total_cities/regencies": 0,
+      "total_districts": 0,
+      "total_villages": 0
     }
   },
-  "province": {
-    "province_code": {
-      "name": "Province Name",
-      "cities": {
-        "city_code": {
-          "name": "City Name",
-          "districts": {
-            "district_code": {
-              "name": "District Name",
-              "villages": ["Village 1", "Village 2"]
-            }
+  "hierarchy": {
+    "provinces": [
+      {
+        "code": "",
+        "name": "",
+        "total_cities/regencies": 0,
+        "cities": [
+          {
+            "code": "",
+            "name": "",
+            "total_districts": 0,
+            "districts": [
+              {
+                "code": "",
+                "name": "",
+                "total_villages": 0,
+                "villages": [
+                  {
+                    "code": "",
+                    "name": ""
+                  }
+                ]
+              }
+            ]
           }
-        }
+        ]
       }
-    }
+    ]
   }
 }
 ```
